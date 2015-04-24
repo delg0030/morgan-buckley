@@ -15,7 +15,7 @@ html {
     text-size-adjust: 100%;
 }
 
-}
+
 
 *, *::before, *::after {
     box-sizing: inherit;
@@ -94,7 +94,7 @@ body {
 
 
 .wrapper {
-    height: 100vh;
+    height: 70vh;
     overflow-x: hidden;
     overflow-y: auto;
     
@@ -142,4 +142,31 @@ body {
     color: black;
     padding: 1em 1em;
     text-align: center;
+}
+
+
+
+@media only screen and (min-width: 38em) {
+.paragraph {
+    padding-left: 5em;
+}
+}
+
+@media only screen and (min-width: 50em) {
+
+.paragraph {
+    padding-left: 10em;
+    padding-right: 10em;
+}
+    
+    
+}
+    
+@media only screen and (min-width: 60em) {
+
+.paragraph {
+        padding-left: 20em;
+    padding-right: 20em;
+}
+        
 }
