@@ -144,6 +144,17 @@ body {
     text-align: center;
 }
 
+.script {
+    font-size: 9px;
+    padding: .5em;
+    margin: 1.5em;
+    background-color: black;
+    color: white;
+    margin: 0;
+    
+    
+}
+
 
 
 @media only screen and (min-width: 38em) {
